@@ -4,7 +4,7 @@
 \usecolortheme{owl}
 
 \usepackage[utf8]{inputenc}
-\usepackage[italian]{babel}
+\usepackage[italian, english]{babel} 
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{graphicx}
@@ -18,7 +18,7 @@
 \subtitle{Distinct adaptive strategies in Bromeliaceae and Orchidaceae \\ at Cerro Machín Volcano (Colombia)}
 \author{Candidata: Michela Spina}
 \institute{Alma Mater Studiorum -- Università di Bologna\\ Global Change Ecology and Sustainable Development Goals}
-\date{Anno Accademico 2025--2026}
+\date{Academic Year 2025--2026}
 
 \begin{document}
 
@@ -28,143 +28,130 @@
 \end{frame}
 
 % SLIDE 2: CONTESTO GEOLOGICO - ANDE COLOMBIANE
-\begin{frame}{Contesto Geologico: Le Ande Colombiane}
+\begin{frame}{Geological context: Colombian Andes}
   \begin{columns}[T]
     \begin{column}{0.55\textwidth}
       \begin{itemize}
-        \item Le Ande settentrionali raggiungono la massima complessità in Colombia \cite{131}.
-        \item Suddivisione in tre catene principali: \textbf{Cordigliera Occidentale, Centrale e Orientale} \cite{131}.
-        \item Evoluzione guidata dall'interazione tra uplift, erosione e magmatismo \cite{60}.
+        \item Andes are the product of long-term tectonic processes.
+        \item Faulting and volcanism drive landscape diversification.
+        \item In Colombia, the range bifurcates into three parallel chains:
+        \begin{itemize}
+            \item \textbf{Cordillera Occidental}: Pacific border.
+            \item \textbf{Cordillera Central}: Highest, volcanic arc.
+            \item \textbf{Cordillera Oriental}: Widest, toward Venezuela.
+        \end{itemize}
+        \item This mosaic influences Neotropical biodiversity patterns.
       \end{itemize}
     \end{column}
+    
     \begin{column}{0.40\textwidth}
       \centering
-      \includegraphics[width=\textwidth]{geological_map.jpg}
-      \\ {\tiny \textit{Mappa Geologica della Cordigliera Centrale \cite{112}}}
+      \includegraphics[width=\textwidth]{ANDE COLOMBIA PINTEREST.jpg} 
+      \\ \vspace{2mm}
+      {\tiny \textit{Formation process of the Andes Mountains}}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 3: LOCALIZZAZIONE CERRO MACHÍN
+% SLIDE 3: CERRO MACHÍN VOLCANO LOCATION
 \begin{frame}{Cerro Machín Volcano (CMV)}
-  \begin{itemize}
-    \item \textbf{Ubicazione}: Fianco orientale della Cordigliera Centrale, 17 km a ovest di Ibagué \cite{84}.
-    \item \textbf{Struttura}: Complesso vulcanico di 13 $km^2$ con un cratere di 2,4 km di diametro \cite{86}.
-    \item \textbf{Tettonica}: Situato all'intersezione delle faglie di Cajamarca (NE) e Salento (NW) \cite{113}.
-    \item \textbf{Stato attuale}: Fase quiescente con degassamento idrotermale persistente \cite{122}.
-  \end{itemize}
+  \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+        \item \textbf{Location}: Eastern flank of the Cordillera Central, 17 km west of Ibagué.
+        \item \textbf{Structure}: Volcanic complex covering 13 $km^2$ with a 2.4 km diameter crater.
+        \item \textbf{Tectonics}: Located at the intersection of the Cajamarca (NE) and Salento (NW) faults.
+        \item \textbf{Current Status}: Quiescent phase characterized by persistent hydrothermal degassing.
+      \end{itemize}
+    \end{column}
+    
+    \begin{column}{0.35\textwidth}
+      \centering
+      % Ricordati di controllare se il nome file ha lo spazio!
+      \includegraphics[width=\textwidth]{Machin ingrandimento.png}
+    \end{column}
+  \end{columns}
 \end{frame}
 
 % SLIDE 4: DOMANDE DI RICERCA
-\begin{frame}{Domande di Ricerca}
+\begin{frame}{Research Questionsb }
   \begin{block}{Fundamental Question}
-    How does local vegetation respond to the combined thermal and geochemical stresses imposed by active degassing? \cite{76}
+    How does local vegetation respond to the combined thermal and geochemical stresses imposed by active degassing?
   \end{block}
-  \begin{itemize}
-    \item Possono questi gradienti agire come driver ecologici capaci di modellare l'espressione dei tratti funzionali? \cite{77}
-    \item \textbf{Thermal stress}: "Thermal engine" che forza la gestione della domanda evaporativa \cite{79}.
-    \item \textbf{Geochemical forcing}: Carico tossicologico (degassamento $CO_2$ e metalli pesanti) \cite{80}.
-  \end{itemize}
+  \begin{block} {}
+  Can these interacting gradients act as ecological drivers capable of shaping functional trait expression and promoting divergent adaptive strategies within exposed plant communities?
+  \end{block}
 \end{frame}
 
-% SLIDE 5: AIM - CONNESSIONE BIO-GEO MULTISCALA
+% SLIDE 5: AIM
 \begin{frame}{Aim: Una Connessione Bio-Geo Multiscala}
   \begin{itemize}
-    \item \textbf{Approccio integrato}: Vulcanologia, botanica ed ecologia funzionale \cite{81}.
-    \item \textbf{Multiscala}: Dal telerilevamento satellitare (macro-scala) all'analisi microscopica dei tratti (micro-scala) \cite{20, 351}.
-    \item \textbf{Filtri ambientali}: Comprendere come il sistema idrotermale crei mosaici di stress abiotico immediati \cite{75}.
+    \item \textbf{Approccio integrato}: Vulcanologia, botanica ed ecologia funzionale.
+    \item \textbf{Multiscala}: Dal telerilevamento satellitare alla microscopia.
+    \item \textbf{Filtri ambientali}: Comprendere i mosaici di stress abiotico immediati.
   \end{itemize}
   \centering
-  \includegraphics[width=0.6\textwidth]{multi_scale_approach.png}
+  \includegraphics[width=0.5\textwidth]{multi_scale_approach.png}
 \end{frame}
 
-% SLIDE 6: METODOLOGIA E CAMPIONAMENTO
+% SLIDE 6: METODOLOGIA
 \begin{frame}{Metodologia e Strategia di Campionamento}
   \begin{itemize}
-    \item \textbf{Gradienti}: Dal bosco chiuso (T2) ai campi fumarolici attivi (P2) \cite{186}.
-    \item \textbf{Tecniche}: 
-      \begin{itemize}
-        \item \textbf{Telerilevamento}: Sentinel-2 (NDVI, GCI, EVI) \cite{352, 358}.
-        \item \textbf{Field data}: Flussi $CO_2$ (metodo camera chiusa), $T_{soil}$, XRF per suoli \cite{280, 282, 330}.
-        \item \textbf{Analisi tratti}: Densità stomatica (SD) e dei tricomi tramite impressioni epidermiche \cite{303, 320}.
-      \end{itemize}
+    \item \textbf{Gradienti}: Dal bosco chiuso ai campi fumarolici attivi.
+    \item \textbf{Field data}: Flussi $CO_2$, $T_{soil}$, XRF per suoli.
+    \item \textbf{Analisi tratti}: Densità stomatica (SD) e dei tricomi tramite impressioni epidermiche.
   \end{itemize}
 \end{frame}
 
-% SLIDE 7: RISULTATI - GRADIENTI ABIOTICI
-\begin{frame}{Risultati: Stress Termico e Geochimico}
-  \begin{itemize}
-    \item \textbf{Temperatura suolo}: Picco a T1 ($41.8^\circ$C) superiore ai siti fumarolici attivi (P2: $36.5^\circ$C) \cite{396, 397}.
-    \item \textbf{Flusso $CO_2$}: T1 registra $463.5$ g $m^{-2}$ $d^{-1}$, superando di ordini di grandezza i livelli di fondo globali \cite{405, 407, 408}.
-    \item \textbf{Matrice del suolo}: T1 funge da isolante intrappolando fluidi idrotermali, a differenza della matrice rocciosa di P2 \cite{414, 415}.
-  \end{itemize}
-\end{frame}
-
-% SLIDE 8: RISULTATI - PLASTICITÀ STOMATICA
+% SLIDE 7: RISULTATI - PLASTICITÀ STOMATICA
 \begin{frame}{Risultati: Polarizzazione delle Strategie Adattative}
   \begin{columns}[T]
     \begin{column}{0.48\textwidth}
       \textbf{\textcolor{red}{Orchidaceae (Avoidance)}}
       \begin{itemize}
-        \item Riduzione drastica SD: $97.2 \rightarrow 48.7$ n/$mm^2$ \cite{520}.
-        \item Strategia conservativa per minimizzare perdita d'acqua e uptake di gas tossici \cite{715}.
+        \item Riduzione drastica SD: $97.2 \rightarrow 48.7$ n/$mm^2$.
+        \item Strategia conservativa per minimizzare uptake di gas tossici.
       \end{itemize}
-      \centering
-      \includegraphics[width=0.8\textwidth]{orchidaceae_SD.png}
     \end{column}
     \begin{column}{0.48\textwidth}
       \textbf{\textcolor{blue}{Bromeliaceae (Dissipative)}}
       \begin{itemize}
-        \item Aumento SD: fino a $25.0$ n/$mm^2$ \cite{540, 716}.
-        \item \textbf{Evaporative cooling} per proteggere i tessuti fogliari dal calore radiante del suolo \cite{717}.
+        \item Aumento SD: fino a $25.0$ n/$mm^2$.
+        \item \textbf{Evaporative cooling} per proteggere i tessuti dal calore radiante.
       \end{itemize}
-      \centering
-      \includegraphics[width=0.8\textwidth]{bromeliaceae_SD.png}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 9: RISULTATI - METALLI E MULTICOLLINEARITÀ
-\begin{frame}{Risultati: Il "Pacchetto Geochimico"}
-  \begin{itemize}
-    \item \textbf{Multicollinearità elevata} ($r > 0.80$): Temperatura, altitudine e metalli sono altamente sincronizzati \cite{381, 725, 726}.
-    \item I metalli pesanti agiscono come un \textbf{complesso sincronizzato} piuttosto che variabili indipendenti \cite{626}.
-    \item I tratti funzionali epifitici emergono come efficaci \textbf{proxy biologici} dell'attività idrotermale locale \cite{727}.
-  \end{itemize}
-  \centering
-  \includegraphics[width=0.55\textwidth]{regression_metals.png}
-\end{frame}
-
-% SLIDE 10: DISCUSSIONE - PROFILO NDVI (FIG. 7)
+% SLIDE 8: DISCUSSIONE - NDVI
 \begin{frame}{Discussione: Threshold Effect e Vigor Vegetativo}
   \begin{columns}[T]
     \begin{column}{0.5\textwidth}
       \includegraphics[width=\textwidth]{ndvi_transect.jpg}
-      \\ {\tiny \textit{Figura 7: Profilo NDVI attraverso il cratere \cite{517}}}
+      \\ {\tiny \textit{Figura 7: Profilo NDVI attraverso il cratere}}
     \end{column}
     \begin{column}{0.45\textwidth}
       \begin{itemize}
-        \item \textbf{Declino della produttività}: Non dove il suolo è più caldo (T1), ma dove il degassamento è diretto (P2) \cite{699, 700}.
-        \item \textbf{Threshold effect}: Le comunità vegetali mostrano resilienza al calore edafico, ma soccombono allo stress chimico delle fumarole \cite{700, 720}.
-        \item \textbf{Collasso clorofilliano}: GCI (-0.028) conferma il danno fisiologico da fumigazione \cite{720}.
+        \item \textbf{Threshold effect}: Resilienza al calore edafico, ma collasso allo stress chimico diretto.
+        \item \textbf{GCI (-0.028)}: Conferma il danno da fumigazione vulcanica.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 11: CONCLUSIONI - UN LABORATORIO NATURALE
+% SLIDE 9: CONCLUSIONI
 \begin{frame}{Conclusioni: Persistenza in Ambienti Estremi}
   \begin{itemize}
-    \item Il cratere è un'\textbf{interfaccia ad alta entropia} definita dalla geometria delle anomalie idrotermali \cite{711, 712}.
-    \item La persistenza biologica è mediata da meccanismi evolutivi contrastanti: \textbf{evitamento morfologico} vs \textbf{dissipazione termica attiva} \cite{732}.
-    \item \textbf{Futuro}: Necessità di esperimenti controllati per separare meccanicamente tossicità atmosferica e stress termico edafico \cite{730}.
+    \item Il cratere è un'\textbf{interfaccia ad alta entropia} definita da anomalie idrotermali.
+    \item La persistenza è mediata da: \textbf{evitamento morfologico} vs \textbf{dissipazione termica attiva}.
+    \item Cerro Machín è un laboratorio unico per le forzanti geofisiche sulla vita.
   \end{itemize}
   \begin{block}{Messaggio Finale}
-    Il Cerro Machín è un laboratorio unico per esplorare i limiti e le strategie adattative della vita in ambienti dominati da forzanti geofisiche \cite{731, 732}.
+    I tratti funzionali epifitici emergono come efficaci proxy biologici dell'attività vulcanica locale.
   \end{block}
 \end{frame}
 
-% SLIDE 12: RINGRAZIAMENTI
+% SLIDE 10: RINGRAZIAMENTI
 \begin{frame}[standout]
   \Huge{Grazie per l'attenzione!}
   \\[10mm]
