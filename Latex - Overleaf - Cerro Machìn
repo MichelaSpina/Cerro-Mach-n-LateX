@@ -4,20 +4,20 @@
 \usecolortheme{rose}
 
 \usepackage[utf8]{inputenc}
-\usepackage[italian, english]{babel} 
+\usepackage[english]{babel} 
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{multicol}
 \usepackage{xcolor}
+\usepackage{tikz}
 
 % ============================================================================
-% INFORMAZIONI DOCUMENTO
+% DOCUMENT INFORMATION
 % ============================================================================
-\title{Functional traits of vascular epiphytes \\ along a fumarolic gradient}
-\subtitle{Distinct adaptive strategies in Bromeliaceae and Orchidaceae \\ at Cerro Machín Volcano (Colombia)}
-\author{Candidata: Michela Spina}
-\institute{Alma Mater Studiorum -- University of Bologna\\ Global Change Ecology and Sustainable Development Goals}
+\title[Vascular epiphytes along a fumarolic gradient at CMV]{Functional traits of vascular epiphytes \\ along a fumarolic gradient}
+\institute[University of Bologna]{Alma Mater Studiorum -- University of Bologna \\ Global Change Ecology and Sustainable Development Goals}
+\author{Candidate: Michela Spina}
 \date{Academic Year 2025--2026}
 
 \begin{document}
@@ -27,7 +27,17 @@
   \titlepage
 \end{frame}
 
-% SLIDE 2: CONTESTO GEOLOGICO - ANDE COLOMBIANE
+% SLIDE 2: RESEARCH QUESTIONS
+\begin{frame}{Research Questions}
+  \begin{block}{Fundamental Question}
+    How does local vegetation respond to the combined thermal and geochemical stresses imposed by active degassing?
+  \end{block}
+  \begin{block}{Ecological Drivers}
+    Can these interacting gradients act as ecological drivers capable of shaping functional trait expression and promoting divergent adaptive strategies?
+  \end{block}
+\end{frame}
+
+% SLIDE 3: GEOLOGICAL CONTEXT
 \begin{frame}{Geological context: Colombian Andes}
   \begin{columns}[T]
     \begin{column}{0.55\textwidth}
@@ -43,7 +53,6 @@
         \item This mosaic influences Neotropical biodiversity patterns.
       \end{itemize}
     \end{column}
-    
     \begin{column}{0.40\textwidth}
       \centering
       \includegraphics[width=\textwidth]{ande_colombia.jpg} 
@@ -53,18 +62,17 @@
   \end{columns}
 \end{frame}
 
-% SLIDE 3: CERRO MACHÍN VOLCANO LOCATION
+% SLIDE 4: CERRO MACHÍN VOLCANO LOCATION
 \begin{frame}{Cerro Machín Volcano (CMV)}
   \begin{columns}[T]
     \begin{column}{0.6\textwidth}
       \begin{itemize}
-        \item \textbf{Location}: Eastern flank of the Cordillera Central, 17 km west of Ibagué.
+        \item \textbf{Location}: Eastern flank of the Central Cordillera, 17 km west of Ibagué.
         \item \textbf{Structure}: Volcanic complex covering 13 $km^2$ with a 2.4 km diameter crater.
         \item \textbf{Tectonics}: Located at the intersection of the Cajamarca (NE) and Salento (NW) faults.
         \item \textbf{Current Status}: Quiescent phase characterized by persistent hydrothermal degassing.
       \end{itemize}
     \end{column}
-    
     \begin{column}{0.35\textwidth}
       \centering
       \includegraphics[width=\textwidth]{machin_ingrandimento.png}
@@ -72,37 +80,23 @@
   \end{columns}
 \end{frame}
 
-% SLIDE 4: RESEARCH QUESTIONS
-\begin{frame}{Research Questions}
-  \begin{block}{Fundamental Question}
-    How does local vegetation respond to the combined thermal and geochemical stresses imposed by active degassing?
-  \end{block}
-  \begin{block}{Ecological Drivers}
-    Can these interacting gradients act as ecological drivers capable of shaping functional trait expression and promoting divergent adaptive strategies within exposed plant communities?
-  \end{block}
-\end{frame}
-
-% SLIDE 5: HABITAT AND ECOLOGICAL 
+% SLIDE 5: HABITAT AND ECOLOGICAL FRAMEWORK
 \begin{frame}{Habitat and Ecological Framework}
   \begin{columns}[T]
     \begin{column}{0.6\textwidth}
       \begin{itemize}
-        \item \textbf{The Paradox}: Situated in a wet forest (RH 85\%), yet functionally \textbf{arid} due to geothermal heat.
+        \item \textbf{The Paradox}: Located in a wet forest (RH 85\%), but functionally \textbf{arid} due to geothermal heat.
         \item \textbf{Synergistic Stressors}:
         \begin{itemize}
             \item \textbf{Epiphytic Habit}: "Intermittent drought".
             \item \textbf{Fumarolic Activity}: High Vapor Pressure Deficit (VPD).
         \end{itemize}
       \end{itemize}
-      
       \vspace{0.3cm}
-      
-      % IL TUO CONCETTO INSERITO QUI
       \begin{alertblock}{The Environmental Sieve}
-        The interaction between lithosphere and biosphere is dynamic: volcanic disturbance creates \textbf{primary succession} substrates, imposing severe \textbf{abiotic filters} that select for specific life strategies.
+        Volcanic disturbance creates \textbf{primary succession} substrates, imposing severe \textbf{abiotic filters} that select specific life strategies.
       \end{alertblock}
     \end{column}
-    
     \begin{column}{0.35\textwidth}
       \centering
       \includegraphics[width=\textwidth]{fumarole_machin.jpeg} 
@@ -112,29 +106,25 @@
   \end{columns}
 \end{frame}
 
-% SLIDE 6: MODEL ORGANISMS - ORCHIDACEAE AND BROMELIACEAE
+% SLIDE 6: MODEL ORGANISMS
 \begin{frame}{Model Organisms: Orchidaceae and Bromeliaceae}
   \begin{itemize}
-    \item \textbf{Epiphytic Habit}: The lack of soil connection imposes a condition of \textbf{"intermittent drought"}, effectively forcing these plants to function as xerophytes.
+    \item \textbf{Epiphytic Habit}: Lack of soil connection forces plants to function as xerophytes.
   \end{itemize}
-
   \begin{columns}[T]
     \begin{column}{0.48\textwidth}
       \begin{block}{Orchidaceae}
         \begin{itemize}
-          \item \textbf{Velamen radicum}: Highly specialized root tissue for rapid water absorption and retention.
-          \item \textbf{Xerophytic Traits}: Presence of pseudobulbs and thick cuticles to counteract desiccation.
-          \item \textbf{Root Framework}: Support for diverse microbial communities and biological nitrogen fixation.
+          \item \textbf{Velamen radicum}: Specialized tissue for water absorption.
+          \item \textbf{Xerophytic Traits}: Pseudobulbs and thick cuticles.
         \end{itemize}
       \end{block}
     \end{column}
-
     \begin{column}{0.48\textwidth}
       \begin{block}{Bromeliaceae}
         \begin{itemize}
-          \item \textbf{Tank Structures}: Specialized leaf arrangements forming reservoirs for water and nutrients.
-          \item \textbf{Environmental Sensitivity}: Strong dependence on stable moisture regimes and microclimatic conditions.
-          \item \textbf{Trophic Support}: Providing breeding sites and shelter for associated fauna and microorganisms.
+          \item \textbf{Sensitivity}: Strong dependence on moisture regimes.
+          \item \textbf{Trophic Role}: multiplier of ecosystem health.
         \end{itemize}
       \end{block}
     \end{column}
@@ -142,141 +132,245 @@
 \end{frame}
 
 % SLIDE 7: SAMPLING STRATEGY
-\begin{frame}{Fieldwork and Sampling Strategy (Dec 2025)}
+\begin{frame}{Material and Methods: Study Area}
   \begin{columns}[T]
-    \begin{column}{0.5\textwidth}
+    \begin{column}{0.45\textwidth}
       \begin{itemize}
-        \item \textbf{Design}: Steep environmental gradient from dome base to the active summit.
+        \item \textbf{Morphology}: Steep environmental gradient.
         \item \textbf{Mixed Strategy}: 
         \begin{itemize}
-            \item \textbf{Linear Transects (T1, T2)}: 50m N-S axis for spatial heterogeneity.
-            \item \textbf{Observational Plots (P1, P2)}: Non-invasive method for high-sensitivity areas.
+            \item \textbf{Transects (T1, T2)}: 50m N-S axis.
+            \item \textbf{Plots (P1, P2)}: Non-invasive for sensitive areas.
         \end{itemize}
-        \item \textbf{Sites}: From Forest Control (\textit{Ficus}) to Active Fumarolic Field (\textit{Fumarol}).
-      \end{itemize}
-    \end{column}
-    
-    \begin{column}{0.48\textwidth}
-      \small
-      \begin{tabular}{@{}llll@{}}
-        \toprule
-        \textbf{ID} & \textbf{Name} & \textbf{Alt.} & \textbf{Typology} \\ \midrule
-        T2 & Ficus & 2600 & Transect \\
-        P1 & Orchideas & 2640 & Plot \\
-        T1 & Epidendrum & 2667 & Transect \\
-        P2 & Fumarol & 2680 & Plot \\ \bottomrule
-      \end{tabular}
-      \vspace{0.4cm}
-      \centering
-      %\includegraphics[width=\textwidth]{mappa_siti.png}
-      \\ {\tiny \textit{Sampling stations along the western flank}}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-% SLIDE 8: ABIOTIC MONITORING & GEOCHEMISTRY
-\begin{frame}{Abiotic Forcing: Geochemical and Thermal Monitoring}
-  \begin{columns}[T]
-    \begin{column}{0.6\textwidth}
-      \begin{itemize}
-        \item \textbf{Thermal Profiling}: In situ $T_{soil}$ (0-10 cm) and $T_{env}$ using high-precision digital probes.
-        \item \textbf{Diffuse Degassing}: $CO_2$ flux measured via \textbf{static closed-chamber method}.
+        \item \textbf{Sites}: 
         \begin{itemize}
-            \item Quantification based on the Ideal Gas Law.
-            \item Focus on peak geochemical forcing (Site T1).
+            \item \textit{Ficus} (T2): Control.
+            \item \textit{Orchideas} (P1): Ecotone.
+            \item \textit{Epidendrum} (T1): High-stress.
+            \item \textit{Fumarol} (P2): Active Field.
         \end{itemize}
-        \item \textbf{Soil Geochemistry}: XRF analysis for heavy metals and metalloids (As, Hg, Pb, Cr, etc.) after room-temperature stabilization.
       \end{itemize}
     \end{column}
-    
-    \begin{column}{0.35\textwidth}
+    \begin{column}{0.52\textwidth}
       \centering
-      %\includegraphics[width=0.8\textwidth]{strumentazione_campo.jpg}
-      \begin{block}{XRF Target Elements}
-        \tiny As, Hg, Pb, Cr, Cu, Ni, Zn, Mn, Co, Se, Tl, Bi.
-      \end{block}
+      \includegraphics[width=0.48\linewidth, height=3.3cm, keepaspectratio]{Volcán_Cerro_Machín.jpg}
+      \hfill
+      \includegraphics[width=0.48\linewidth, height=3.3cm, keepaspectratio]{openGrassEpidend.jpg} 
+      \vspace{0.1cm}
+      \includegraphics[width=0.48\linewidth, height=3.3cm, keepaspectratio]{duomomachin.jpg}
+      \hfill
+      \includegraphics[width=0.48\linewidth, height=3.3cm, keepaspectratio]{orchidsecotone.jpg}
+      \\[0.1cm]
+      {\tiny \textit{Clockwise from top left: CMV crater, T1 Matrix, Site P2, P1 Sampling}}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 9: TRAIT ANALYSIS & DATA INTEGRATION
-\begin{frame}{Trait Analysis and Multi-Scale Integration}
+% SLIDE 8: SPATIAL MAP
+{
+\setbeamertemplate{background}{
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[yshift=-0.6cm] at (current page.center) {
+      \includegraphics[width=0.95\paperwidth, height=0.82\paperheight, keepaspectratio]{Mappa_Machin_Definitiva_V2.png}
+    };
+  \end{tikzpicture}
+}
+\begin{frame}{Spatial Distribution of Sampling Sites}
+\end{frame}
+}
+
+% NEW SLIDE 9: DATA COLLECTION (MATERIALS AND METHODS)
+\begin{frame}{Materials and Methods: Data Collection}
+  \begin{itemize}
+    \item \textbf{Microclimatic and soil measurements}: In situ measurements.
+    \item \textbf{Soil $CO_2$ Diffuse Degassing Flux}: Static closed-chamber.
+    \item \textbf{Stomatal and Trichome Density}: Nail polish impressions.
+    \item \textbf{Soil Preparation and XRF analysis}: Heavy metal quantification.
+  \end{itemize}
+  
+  \vfill
+  
+  \begin{columns}
+    \begin{column}{0.48\textwidth}
+      \centering
+      \includegraphics[width=\linewidth, height=3.5cm, keepaspectratio]{strumentazione.jpg}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \centering
+      % Inserisci qui il nome del nuovo file che caricherai
+      \includegraphics[width=\linewidth, height=3.5cm, keepaspectratio]{strumentazione2.jpg} 
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 10: STOMATAL COUNTING
+\begin{frame}{Materials and Methods: Determination of Stomatal and Trichome Density}
   \begin{columns}[T]
     \begin{column}{0.55\textwidth}
       \begin{itemize}
-        \item \textbf{Epidermal Peels}: Nail polish impression technique for Stomatal Density (SD) and Trichomes.
-        \item \textbf{Microscopy}: Systematic counting using Leica ICC50 W.
+        \item \textbf{Nail Polish Technique}: Applied to the abaxial leaf surface for epidermal impressions.
+        \item \textbf{Instrumentation}: Leica ICC50 W optical microscope, performed within $1mm^2$ areas using grid quadrants.
+        \item \textbf{Magnifications}:
         \begin{itemize}
-            \item Orchids: 10x magnification.
-            \item Bromeliads: 40x (to account for sunken stomata/trichomes).
+            \item \textbf{Orchidaceae}: 10x magnification.
+            \item \textbf{Bromeliaceae}: 40x magnification.
         \end{itemize}
-        \item \textbf{Remote Sensing}: Bridge to macro-scale via \textbf{Sentinel-2} spectral indices (NDVI, GCI, EVI).
       \end{itemize}
     \end{column}
-    
     \begin{column}{0.4\textwidth}
       \centering
-      % SPAZIO PER L'IMMAGINE DEGLI STOMI
-      \includegraphics[width=\textwidth]{stomi_microscopio.png} 
-      \\ \vspace{1mm}
-      {\tiny \textit{Epidermal peel of Epidendrum melianthum (10x)}}
+      \includegraphics[width=\textwidth]{photo_2026-03-03_13-26-57.jpg} 
+      \\ \vspace{2mm}
+      {\tiny \textit{Microscopic analysis of stomatal density}}
     \end{column}
   \end{columns}
-  \vspace{0.2cm}
-  \centering
-  \small \textbf{Statistical Analysis}: OLS Models and Pearson correlations in R to test abiotic drivers.
 \end{frame}
 
-% SLIDE 10: RISULTATI - PLASTICITÀ STOMATICA
-\begin{frame}{Risultati: Polarizzazione delle Strategie Adattative}
+% SLIDE 11: RESULTS HEADER - NDVI ANALYSIS
+\begin{frame}{Results: NDVI Analysis - Macro-scale to Transect Profile}
   \begin{columns}[T]
     \begin{column}{0.48\textwidth}
-      \textbf{\textcolor{red}{Orchidaceae (Avoidance)}}
+      \centering
+      \includegraphics[width=\textwidth]{Rplot ndvi machin.png} 
+      \\ \vspace{1mm}
+      {\tiny \textit{Macro-scale: NDVI Distribution across CMV Crater }}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{07_profilo_ndvi.png}
+      \\ \vspace{1mm}
+      {\tiny \textit{Micro-scale: NDVI profile from T2 (Forest) to P2 (Fumarole) }}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 12: RESULTS - ABIOTIC MONITORING
+\begin{frame}{Results: Abiotic Forcing and Monitoring}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
       \begin{itemize}
-        \item Riduzione drastica SD: $97.2 \rightarrow 48.7$ n/$mm^2$.
-        \item Strategia conservativa per minimizzare uptake di gas tossici.
+        \item \textbf{Thermal Gradient}: Substrate temperatures peaked at $\mathbf{41.8^\circ C}$ (Site T1).
+        \item \textbf{Diffuse Degassing}: Mean $CO_2$ flux at T1 reached $\mathbf{463.5 \ g \ m^{-2} d^{-1}}$, vastly exceeding background levels.
+        \item \textbf{Soil Geochemistry}: Synchronization of heavy metal concentrations indicating volcanic forcing.
+        \item \textbf{Landscape Fragmentation}: Shannon Diversity Index ($H = 3.055$) calculated on EVI distribution.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{strumentazione_campo.jpg} 
+      \\ \vspace{2mm}
+      {\tiny \textit{In situ microclimatic and edaphic data collection}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 13: TRAIT ANALYSIS & INTEGRATION
+\begin{frame}{Results: Multi-Scale Integration and Remote Sensing}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \begin{itemize}
+        \item \textbf{Remote Sensing Integration}: Bridge between macro-scale landscape ecology and micro-scale physiology.
+        \item \textbf{Spectral Indices}: Validating localized geothermal stress patches using Sentinel-2 imagery.
+        \item \textbf{Soil Adjustment}: Use of SAVI and MSAVI to suppress substrate "noise" in volcanic terrain.
+        \item \textbf{Vigor Indicator}: GCI documents localized "chlorophyll collapse" near active vents.
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{satellite_integration.png} 
+      \\ \vspace{1mm}
+      {\tiny \textit{Sentinel-2 spectral data processing}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 14: RESULTS - POLARIZATION
+\begin{frame}{Results: Polarization of Adaptive Strategies}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \textbf{\textcolor{red}{Orchidaceae (Avoidance Strategy)}}
+      \begin{itemize}
+        \item SD Reduction: $97.2 \rightarrow 48.7$ n/$mm^2$.
+        \item Morphological "closing" to minimize transpiration and gas intake.
       \end{itemize}
     \end{column}
     \begin{column}{0.48\textwidth}
-      \textbf{\textcolor{blue}{Bromeliaceae (Dissipative)}}
+      \textbf{\textcolor{blue}{Bromeliaceae (Dissipative Strategy)}}
       \begin{itemize}
-        \item Aumento SD: fino a $25.0$ n/$mm^2$.
-        \item \textbf{Evaporative cooling} per proteggere i tessuti dal calore radiante.
+        \item SD Increase: Up to $25.0$ n/$mm^2$.
+        \item Active thermoregulation via evaporative cooling.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 11: DISCUSSIONE - NDVI
-\begin{frame}{Discussione: Threshold Effect e Vigor Vegetativo}
+% SLIDE 15: DISCUSSION - THERMAL
+\begin{frame}{Discussion: Thermal Drivers of Stomatal Plasticity}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{regr_orchid_temp.png} 
+      \\ \vspace{1mm}
+      {\tiny \textit{Orchidaceae: Negative correlation between SD and $T_{soil}$ ($R^2=0.325$)}}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{regr_brom_temp.png}
+      \\ \vspace{1mm}
+      {\tiny \textit{Bromeliaceae: Positive statistical association between SD and $T_{soil}$ ($R^2=0.626$)}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 16: DISCUSSION - GEOCHEMISTRY
+\begin{frame}{Discussion: Geochemical Drivers and Multicollinearity}
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{regr_orchid_metals.png} 
+      \\ \vspace{1mm}
+      {\tiny \textit{Orchidaceae: Stomatal density vs mean metal concentration ($R^2=0.875$)}}
+    \end{column}
+    \begin{column}{0.48\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{regr_brom_metals.png}
+      \\ \vspace{1mm}
+      {\tiny \textit{Bromeliaceae: Stomatal density vs mean metal concentration ($R^2=0.625$)}}
+    \end{column}
+  \end{columns}
+  \vspace{2mm}
+  \small \centering \textit{Heavy metals act as a synchronized complex rather than isolated variables.}
+\end{frame}
+
+% SLIDE 17: DISCUSSION - THRESHOLD
+\begin{frame}{Discussion: Threshold Effect and Vigor}
   \begin{columns}[T]
     \begin{column}{0.5\textwidth}
-      \includegraphics[width=\textwidth]{ndvi_transect.jpg}
+      \includegraphics[width=\textwidth]{07_profilo_ndvi.png}
       \\ \vspace{1mm}
-      {\tiny \textit{Figura 7: Profilo NDVI attraverso il cratere}}
+      {\tiny \textit{Figure 7: NDVI profile illustrating localized decline}}
     \end{column}
     \begin{column}{0.45\textwidth}
       \begin{itemize}
-        \item \textbf{Threshold effect}: Resilienza al calore edafico, ma collasso allo stress chimico diretto.
-        \item \textbf{GCI (-0.028)}: Conferma il danno da fumigazione vulcanica.
+        \item \textbf{Threshold effect}: Resilience to heat ($T1$), but collapse under direct chemical stress ($P2$).
+        \item \textbf{Chlorophyll damage}: GCI (-0.028) correspondence to plume fumigation.
       \end{itemize}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 12: CONCLUSIONI
-\begin{frame}{Conclusioni: Persistenza in Ambienti Estremi}
+% SLIDE 18: CONCLUSIONS
+\begin{frame}{Conclusions: Persistence in Extreme Environments}
   \begin{itemize}
-    \item Il cratere è un'\textbf{interfaccia ad alta entropia} definita da anomalie idrotermali.
-    \item La persistenza è mediata da: \textbf{evitamento morfologico} vs \textbf{dissipazione termica attiva}.
-    \item Cerro Machín è un laboratorio unico per le forzanti geofisiche sulla vita.
+    \item High-entropy interface defined by hydrothermal anomalies.
+    \item Persistence via: \textbf{morphological avoidance} vs \textbf{active dissipation}.
   \end{itemize}
-  \begin{block}{Messaggio Finale}
-    I tratti funzionali epifitici emergono come efficaci proxy biologici dell'attività vulcanica locale.
+  \begin{block}{Final Remark}
+    Epiphytic functional traits act as biological proxies for volcanic activity.
   \end{block}
 \end{frame}
 
-% SLIDE 13: RINGRAZIAMENTI
+% SLIDE 14: RINGRAZIAMENTI
 \begin{frame}[standout]
   \Huge{Grazie per l'attenzione!}
   \\[10mm]
