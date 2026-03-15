@@ -1,7 +1,7 @@
 \documentclass[10pt,aspectratio=169]{beamer}
 
-\usetheme{metropolis}
-\usecolortheme{owl}
+\usetheme{CambridgeUS}
+\usecolortheme{rose}
 
 \usepackage[utf8]{inputenc}
 \usepackage[italian, english]{babel} 
@@ -17,7 +17,7 @@
 \title{Functional traits of vascular epiphytes \\ along a fumarolic gradient}
 \subtitle{Distinct adaptive strategies in Bromeliaceae and Orchidaceae \\ at Cerro Machín Volcano (Colombia)}
 \author{Candidata: Michela Spina}
-\institute{Alma Mater Studiorum -- Università di Bologna\\ Global Change Ecology and Sustainable Development Goals}
+\institute{Alma Mater Studiorum -- University of Bologna\\ Global Change Ecology and Sustainable Development Goals}
 \date{Academic Year 2025--2026}
 
 \begin{document}
@@ -46,7 +46,7 @@
     
     \begin{column}{0.40\textwidth}
       \centering
-      \includegraphics[width=\textwidth]{ANDE COLOMBIA PINTEREST.jpg} 
+      \includegraphics[width=\textwidth]{ande_colombia.jpg} 
       \\ \vspace{2mm}
       {\tiny \textit{Formation process of the Andes Mountains}}
     \end{column}
@@ -67,43 +67,167 @@
     
     \begin{column}{0.35\textwidth}
       \centering
-      % Ricordati di controllare se il nome file ha lo spazio!
-      \includegraphics[width=\textwidth]{Machin ingrandimento.png}
+      \includegraphics[width=\textwidth]{machin_ingrandimento.png}
     \end{column}
   \end{columns}
 \end{frame}
 
-% SLIDE 4: DOMANDE DI RICERCA
-\begin{frame}{Research Questionsb }
+% SLIDE 4: RESEARCH QUESTIONS
+\begin{frame}{Research Questions}
   \begin{block}{Fundamental Question}
     How does local vegetation respond to the combined thermal and geochemical stresses imposed by active degassing?
   \end{block}
-  \begin{block} {}
-  Can these interacting gradients act as ecological drivers capable of shaping functional trait expression and promoting divergent adaptive strategies within exposed plant communities?
+  \begin{block}{Ecological Drivers}
+    Can these interacting gradients act as ecological drivers capable of shaping functional trait expression and promoting divergent adaptive strategies within exposed plant communities?
   \end{block}
 \end{frame}
 
-% SLIDE 5: AIM
-\begin{frame}{Aim: Una Connessione Bio-Geo Multiscala}
+% SLIDE 5: HABITAT AND ECOLOGICAL 
+\begin{frame}{Habitat and Ecological Framework}
+  \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+        \item \textbf{The Paradox}: Situated in a wet forest (RH 85\%), yet functionally \textbf{arid} due to geothermal heat.
+        \item \textbf{Synergistic Stressors}:
+        \begin{itemize}
+            \item \textbf{Epiphytic Habit}: "Intermittent drought".
+            \item \textbf{Fumarolic Activity}: High Vapor Pressure Deficit (VPD).
+        \end{itemize}
+      \end{itemize}
+      
+      \vspace{0.3cm}
+      
+      % IL TUO CONCETTO INSERITO QUI
+      \begin{alertblock}{The Environmental Sieve}
+        The interaction between lithosphere and biosphere is dynamic: volcanic disturbance creates \textbf{primary succession} substrates, imposing severe \textbf{abiotic filters} that select for specific life strategies.
+      \end{alertblock}
+    \end{column}
+    
+    \begin{column}{0.35\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{fumarole_machin.jpeg} 
+      \\ \vspace{2mm}
+      {\tiny \textit{The volcano as a geo-ecological filter}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 6: MODEL ORGANISMS - ORCHIDACEAE AND BROMELIACEAE
+\begin{frame}{Model Organisms: Orchidaceae and Bromeliaceae}
   \begin{itemize}
-    \item \textbf{Approccio integrato}: Vulcanologia, botanica ed ecologia funzionale.
-    \item \textbf{Multiscala}: Dal telerilevamento satellitare alla microscopia.
-    \item \textbf{Filtri ambientali}: Comprendere i mosaici di stress abiotico immediati.
+    \item \textbf{Epiphytic Habit}: The lack of soil connection imposes a condition of \textbf{"intermittent drought"}, effectively forcing these plants to function as xerophytes.
   \end{itemize}
+
+  \begin{columns}[T]
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Orchidaceae}
+        \begin{itemize}
+          \item \textbf{Velamen radicum}: Highly specialized root tissue for rapid water absorption and retention.
+          \item \textbf{Xerophytic Traits}: Presence of pseudobulbs and thick cuticles to counteract desiccation.
+          \item \textbf{Root Framework}: Support for diverse microbial communities and biological nitrogen fixation.
+        \end{itemize}
+      \end{block}
+    \end{column}
+
+    \begin{column}{0.48\textwidth}
+      \begin{block}{Bromeliaceae}
+        \begin{itemize}
+          \item \textbf{Tank Structures}: Specialized leaf arrangements forming reservoirs for water and nutrients.
+          \item \textbf{Environmental Sensitivity}: Strong dependence on stable moisture regimes and microclimatic conditions.
+          \item \textbf{Trophic Support}: Providing breeding sites and shelter for associated fauna and microorganisms.
+        \end{itemize}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 7: SAMPLING STRATEGY
+\begin{frame}{Fieldwork and Sampling Strategy (Dec 2025)}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item \textbf{Design}: Steep environmental gradient from dome base to the active summit.
+        \item \textbf{Mixed Strategy}: 
+        \begin{itemize}
+            \item \textbf{Linear Transects (T1, T2)}: 50m N-S axis for spatial heterogeneity.
+            \item \textbf{Observational Plots (P1, P2)}: Non-invasive method for high-sensitivity areas.
+        \end{itemize}
+        \item \textbf{Sites}: From Forest Control (\textit{Ficus}) to Active Fumarolic Field (\textit{Fumarol}).
+      \end{itemize}
+    \end{column}
+    
+    \begin{column}{0.48\textwidth}
+      \small
+      \begin{tabular}{@{}llll@{}}
+        \toprule
+        \textbf{ID} & \textbf{Name} & \textbf{Alt.} & \textbf{Typology} \\ \midrule
+        T2 & Ficus & 2600 & Transect \\
+        P1 & Orchideas & 2640 & Plot \\
+        T1 & Epidendrum & 2667 & Transect \\
+        P2 & Fumarol & 2680 & Plot \\ \bottomrule
+      \end{tabular}
+      \vspace{0.4cm}
+      \centering
+      %\includegraphics[width=\textwidth]{mappa_siti.png}
+      \\ {\tiny \textit{Sampling stations along the western flank}}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 8: ABIOTIC MONITORING & GEOCHEMISTRY
+\begin{frame}{Abiotic Forcing: Geochemical and Thermal Monitoring}
+  \begin{columns}[T]
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+        \item \textbf{Thermal Profiling}: In situ $T_{soil}$ (0-10 cm) and $T_{env}$ using high-precision digital probes.
+        \item \textbf{Diffuse Degassing}: $CO_2$ flux measured via \textbf{static closed-chamber method}.
+        \begin{itemize}
+            \item Quantification based on the Ideal Gas Law.
+            \item Focus on peak geochemical forcing (Site T1).
+        \end{itemize}
+        \item \textbf{Soil Geochemistry}: XRF analysis for heavy metals and metalloids (As, Hg, Pb, Cr, etc.) after room-temperature stabilization.
+      \end{itemize}
+    \end{column}
+    
+    \begin{column}{0.35\textwidth}
+      \centering
+      %\includegraphics[width=0.8\textwidth]{strumentazione_campo.jpg}
+      \begin{block}{XRF Target Elements}
+        \tiny As, Hg, Pb, Cr, Cu, Ni, Zn, Mn, Co, Se, Tl, Bi.
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+% SLIDE 9: TRAIT ANALYSIS & DATA INTEGRATION
+\begin{frame}{Trait Analysis and Multi-Scale Integration}
+  \begin{columns}[T]
+    \begin{column}{0.55\textwidth}
+      \begin{itemize}
+        \item \textbf{Epidermal Peels}: Nail polish impression technique for Stomatal Density (SD) and Trichomes.
+        \item \textbf{Microscopy}: Systematic counting using Leica ICC50 W.
+        \begin{itemize}
+            \item Orchids: 10x magnification.
+            \item Bromeliads: 40x (to account for sunken stomata/trichomes).
+        \end{itemize}
+        \item \textbf{Remote Sensing}: Bridge to macro-scale via \textbf{Sentinel-2} spectral indices (NDVI, GCI, EVI).
+      \end{itemize}
+    \end{column}
+    
+    \begin{column}{0.4\textwidth}
+      \centering
+      % SPAZIO PER L'IMMAGINE DEGLI STOMI
+      \includegraphics[width=\textwidth]{stomi_microscopio.png} 
+      \\ \vspace{1mm}
+      {\tiny \textit{Epidermal peel of Epidendrum melianthum (10x)}}
+    \end{column}
+  \end{columns}
+  \vspace{0.2cm}
   \centering
-  \includegraphics[width=0.5\textwidth]{multi_scale_approach.png}
+  \small \textbf{Statistical Analysis}: OLS Models and Pearson correlations in R to test abiotic drivers.
 \end{frame}
 
-% SLIDE 6: METODOLOGIA
-\begin{frame}{Metodologia e Strategia di Campionamento}
-  \begin{itemize}
-    \item \textbf{Gradienti}: Dal bosco chiuso ai campi fumarolici attivi.
-    \item \textbf{Field data}: Flussi $CO_2$, $T_{soil}$, XRF per suoli.
-    \item \textbf{Analisi tratti}: Densità stomatica (SD) e dei tricomi tramite impressioni epidermiche.
-  \end{itemize}
-\end{frame}
-
-% SLIDE 7: RISULTATI - PLASTICITÀ STOMATICA
+% SLIDE 10: RISULTATI - PLASTICITÀ STOMATICA
 \begin{frame}{Risultati: Polarizzazione delle Strategie Adattative}
   \begin{columns}[T]
     \begin{column}{0.48\textwidth}
@@ -123,12 +247,13 @@
   \end{columns}
 \end{frame}
 
-% SLIDE 8: DISCUSSIONE - NDVI
+% SLIDE 11: DISCUSSIONE - NDVI
 \begin{frame}{Discussione: Threshold Effect e Vigor Vegetativo}
   \begin{columns}[T]
     \begin{column}{0.5\textwidth}
       \includegraphics[width=\textwidth]{ndvi_transect.jpg}
-      \\ {\tiny \textit{Figura 7: Profilo NDVI attraverso il cratere}}
+      \\ \vspace{1mm}
+      {\tiny \textit{Figura 7: Profilo NDVI attraverso il cratere}}
     \end{column}
     \begin{column}{0.45\textwidth}
       \begin{itemize}
@@ -139,7 +264,7 @@
   \end{columns}
 \end{frame}
 
-% SLIDE 9: CONCLUSIONI
+% SLIDE 12: CONCLUSIONI
 \begin{frame}{Conclusioni: Persistenza in Ambienti Estremi}
   \begin{itemize}
     \item Il cratere è un'\textbf{interfaccia ad alta entropia} definita da anomalie idrotermali.
@@ -151,7 +276,7 @@
   \end{block}
 \end{frame}
 
-% SLIDE 10: RINGRAZIAMENTI
+% SLIDE 13: RINGRAZIAMENTI
 \begin{frame}[standout]
   \Huge{Grazie per l'attenzione!}
   \\[10mm]
